@@ -14,7 +14,7 @@ def process(path_file, instance):
         "qtd_linhas": len(lines),
         "linhas_do_arquivo": lines,
     }
-    
+
     instance.enqueue(file_dict)
     print(file_dict, file=sys.stdout)
 
